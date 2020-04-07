@@ -6,6 +6,3 @@ public class Pythagorean {
         return squareRoot;
     }
 }
-//Double the values of legs
-//find the square root of legC
-//return

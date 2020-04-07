@@ -7,4 +7,4 @@ public class PythagoreanTest{
     }
 }
 
-//calls the pythagorean.java
+
