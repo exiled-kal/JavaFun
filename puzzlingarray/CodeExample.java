@@ -52,7 +52,7 @@ public class CodeExample{
         Collections.shuffle(AlphaArr);
         System.out.println(AlphaArr);
         System.out.println("Everyday is Shuffling: " + AlphaArr.get(0));
-        System.out.println("Everyday is Shuffling: " + AlphaArr.get());
+        System.out.println("Everyday is Shuffling: " + AlphaArr.get(17));
         String vowel = AlphaArr.get(0);
 
         if("AEIOU".indexOf(vowel) >= 0){
