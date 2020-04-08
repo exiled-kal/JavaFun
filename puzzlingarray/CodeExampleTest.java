@@ -21,6 +21,5 @@ public class CodeExampleTest {
         runData.randomString();
 
         runData.randomStringOfStrings();
-    
     }
 }

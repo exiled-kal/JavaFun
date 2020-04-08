@@ -1,7 +1,5 @@
+package zookeeper2;
 
-
-public class Carnivore {
-      
 public class Carnivore{
     private int energyLevel = 300;
 
@@ -22,5 +20,3 @@ public class Carnivore{
         return energyLevel;
         }
     }
-
-}
