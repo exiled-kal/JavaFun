@@ -3,23 +3,24 @@
 public class CodeExampleTest {
 
     public static void main(String[] args){
-        CodeExample testData = new CodeExample();
+        CodeExample runData = new CodeExample();
         
         int[] testArr = {3,5,1,2,7,9,8,13,25,32};
-        testData.sumAndGreaterThan10(testArr);
+        runData.sumAndGreaterThan10(testArr);
     
         String[] testList = {"Nancy", "Jinichi", "Fujibayashi", "Momochi", "Ishikawa"};
-        testData.shuffleStrings(testList);
+
+        runData.shuffleStrings(testList);
     
-        testData.shuffleAlphabet();
+        runData.shuffleAlphabet();
         
-        //testData.randNumber();
+        // runData.randNumber();
 
-        //testData.randNumber2();
+        //runData.randNumber2();
 
-        testData.randomString();
+        runData.randomString();
 
-        testData.randomStringOfStrings();
+        runData.randomStringOfStrings();
     
     }
 }
