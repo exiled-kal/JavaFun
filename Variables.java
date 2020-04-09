@@ -7,5 +7,11 @@ public class Variables {
         char singleCharacter = 'A';
         
         String multipleCharacters = "ABC";
+
+        System.out.println(ourInt);
+        System.out.println(multipleCharacters);
+        System.out.println(bool);
+        System.out.println(pi);
+
     }
 }

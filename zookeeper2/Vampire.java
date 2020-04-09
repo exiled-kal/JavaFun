@@ -1,6 +1,6 @@
 package zookeeper2;
 
-public class Bat extends Carnivore {
+public class Vampire extends Carnivore {
     public void fly(){
         this.setEnergy(this.getEnergy()-50);
         System.out.println("Evreybody hide, the bats are coming!");

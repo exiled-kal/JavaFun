@@ -1,8 +1,8 @@
 package zookeeper2;
 
-public class BatTest {
+public class VampireTest {
     public static void main(String args[]){
-        Bat b = new Bat();
+        Vampire b = new Vampire();
         
         b.attackTown();
         b.attackTown();

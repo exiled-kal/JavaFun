@@ -60,22 +60,22 @@ public class CodeExample{
 
             }   
     }
-    // // Generate and return an array with 10 random numbers between 55-100.
-    //     public void randNumber(){
-    //         Random r = new Random();
-    //        ArrayList<Integer> randNums = new ArrayList<Integer>();
-    //     //     for(int i = 0; i < a.length; i++){
-    //             for(int j = 0; j < aRR[i].length; j++){
-    //             a[i][j] = r.nextInt(55,100);
-    //     //     }
-    //         System.out.println(randNums);
+    // Generate and return an array with 10 random numbers between 55-100.
+        public void randNumber(){
+            Random r = new Random();
+           ArrayList<Integer> randNums = new ArrayList<Integer>();
+            for(int i = 0; i < arr.length; i++){
+                for(int j = 0; j < arr[i].length; j++){
+                
+        //     }
+            System.out.println(randNums);
 
-    //     }
+        }
         
 
-    //     for(int i = 0; i < a.length; i++){
-    //         for(int j = 0; j < a[i].length; j++){
-    //             a[i][j] = r.nextInt(55,100);
+        for(int i = 0; i < arr.length; i++){
+            for(int j = 0; j < arr[i].length; j++){
+                arr[i][j] = r.nextInt(55,100);
 
         // Create a random string that is 5 characters long.
         public void randomString(){

@@ -5,6 +5,27 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "CodeLens (Launch) - HumanTest",
+            "request": "launch",
+            "mainClass": "HumanTest",
+            "projectName": "JavaFun_3b90d4ae"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Human",
+            "request": "launch",
+            "mainClass": "Human",
+            "projectName": "JavaFun_3b90d4ae"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - VampireTest",
+            "request": "launch",
+            "mainClass": "zookeeper2.VampireTest",
+            "projectName": "JavaFun_3b90d4ae"
+        },
+        {
             "name": "Java",
             "type": "java",
             "request": "launch",
