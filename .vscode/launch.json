@@ -1,0 +1,132 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ArrayDemo<JavaFun_3b90d4ae>",
+            "request": "launch",
+            "mainClass": "ArrayDemo",
+            "projectName": "JavaFun_3b90d4ae"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Casting<JavaFun_3b90d4ae>",
+            "request": "launch",
+            "mainClass": "Casting",
+            "projectName": "JavaFun_3b90d4ae"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FizzBuzz<JavaFun_3b90d4ae>",
+            "request": "launch",
+            "mainClass": "FizzBuzz",
+            "projectName": "JavaFun_3b90d4ae"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GreeterTest<JavaFun_3b90d4ae>",
+            "request": "launch",
+            "mainClass": "GreeterTest",
+            "projectName": "JavaFun_3b90d4ae"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ImportDemoTest<JavaFun_3b90d4ae>",
+            "request": "launch",
+            "mainClass": "ImportDemoTest",
+            "projectName": "JavaFun_3b90d4ae"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ProjectClassTest<JavaFun_3b90d4ae>",
+            "request": "launch",
+            "mainClass": "ProjectClassTest",
+            "projectName": "JavaFun_3b90d4ae"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PythagoreanTest<JavaFun_3b90d4ae>",
+            "request": "launch",
+            "mainClass": "PythagoreanTest",
+            "projectName": "JavaFun_3b90d4ae"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Variables<JavaFun_3b90d4ae>",
+            "request": "launch",
+            "mainClass": "Variables",
+            "projectName": "JavaFun_3b90d4ae"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-VehicleTest<JavaFun_3b90d4ae>",
+            "request": "launch",
+            "mainClass": "VehicleTest",
+            "projectName": "JavaFun_3b90d4ae"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-coding<JavaFun_3b90d4ae>",
+            "request": "launch",
+            "mainClass": "coding",
+            "projectName": "JavaFun_3b90d4ae"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CodeExampleTest<JavaFun_3b90d4ae>",
+            "request": "launch",
+            "mainClass": "puzzlingarray.CodeExampleTest",
+            "projectName": "JavaFun_3b90d4ae"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-testsum<JavaFun_3b90d4ae>",
+            "request": "launch",
+            "mainClass": "testsum",
+            "projectName": "JavaFun_3b90d4ae"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BatTest<JavaFun_3b90d4ae>",
+            "request": "launch",
+            "mainClass": "zookeeper2.BatTest",
+            "projectName": "JavaFun_3b90d4ae"
+        }
+    ]
+}

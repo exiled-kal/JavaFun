@@ -1,9 +1,9 @@
 package zookeeper2;
 
 public class Bat extends Carnivore {
-    private void fly(){
+    public void fly(){
         this.setEnergy(this.getEnergy()-50);
-        System.out.println("The Bat is looking for something to eat. Hide quickly!");
+        System.out.println("Evreybody hide, the bats are coming!");
         
     }
     public void eatHumans(){
